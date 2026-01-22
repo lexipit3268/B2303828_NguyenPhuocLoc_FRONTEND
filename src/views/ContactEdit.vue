@@ -32,7 +32,7 @@ export default {
       } catch (error) {
         console.log(error);
         this.$router.push({
-          name: "notFound",
+          name: "notfound",
           params: {
             pathMatch: this.$route.path.split("/").slice(1),
           },
